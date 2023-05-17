@@ -1,0 +1,20 @@
+margin: 0;
+}
+html, body{
+    height:100%;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+<script>
+$(document).ready(function() {
+$("body").mousemove(function(event){
+    var relPageCoords = "(" + event.pageX + "," + event.pageY + ")";
+    $(".mouse-cords").text(relPageCoords);
+});
+});
+</script>
+</head>
+<body>
+<p>Coordinates of mouse pointer with respect to the page are: <strong class="mouse-cords"></strong></p>
+</body>
+</html>

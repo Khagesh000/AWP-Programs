@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="certificate.css">
+    <script>
+        function fn1(){
+            var usern = document.getElementsById("name1");
+            if(usern.value == "")
+            alert("invalid");
+        }
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="content">
+        <form action="#" id="form">
+                <p align="center">STUDENT REGESTRATION FORM</p><br><br>
+                <label>Name</label>
+                <input type="text" name="username" size="26px" id="name1"><br>
+                <label>Father Name</label>
+                <input type="text" name="fathername" size="26px"><br>
+                <label>Address</label>
+                <input type="email" name="username" size="26px"><br>
+                <label>Gender</label>
+                <input type="radio" name="gender" class="radio">
+                <label class="radio">Male</label>
+                <input type="radio" name="gender" class="radio">
+                <label class="radio">Female</label><br>
+                <label>City</label>
+                <select>
+                    <option>City</option>
+                    <option>Hyderabad</option>
+                    <option>Bangaloore</option>
+                    <option>Vizianagaram</option>
+                    <option>Vizag</option>
+                </select><br>
+                <label>Course</label>
+                <select>
+                    <option>course</option>
+                    <option>CSE</option>
+                    <option>AWS</option>
+                    <option>ECE</option>
+                    <option>MECH</option>
+                    <option>CSM</option>
+                </select><br>
+                <label>District</label>
+                <select>
+                    <option>District</option>
+                    <option>Ranga reddy</option>
+                    <option>Medchal</option>
+                    <option>Nampally</option>
+                    <option>Kompally</option>
+                    <option>Pragathi nagar</option>
+                </select><br>
+                <label>State</label>
+                <select>
+                    <option>State</option>
+                    <option>Telangana modal  </option>
+                    <option>Andhra pradesh</option>
+                    <option>Tamilnadu</option>
+                    <option>Kerala</option>
+                    <option>Mumbai</option>
+                </select><br>
+                <label>Pincode</label>
+                <input type="text" name="pincode" size="26px"><br>
+                <label>Email id</label>
+                <input type="email" name="useremail" size="26px"><br>
+                <label>DOB</label>
+                <input type="text" name="birth" size="26px"><br>
+                <label>Mobile no</label>
+                <input type="text" name="usernumber" size="26px"><br>
+                <input type="button" name="Reset" value="Reset" style="margin-right: 144px;">
+                <input type="button" name="Submit" value="Submit form" onclick="fn1()">
+
+        </form>
+    </div>
+    </div>
+</body>
+</html>

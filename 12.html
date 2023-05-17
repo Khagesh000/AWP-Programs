@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select { width: 80%;
+padding: 14px 20px; margin: 8px 90px; display: inline-block; border: 1px solid #ccc; border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] { width: 50%;
+background-color:yellowgreen; color: white;
+padding: 14px 20px; margin: 8px 90px; border: none; border-radius: 4px; cursor: pointer;
+}
+
+input[type=submit]:hover { background-color: blue;
+}
+
+div {
+border-radius: 5px; background-color: #f2f2f2; padding: 8px 525px;
+}
+</style>
+<body>
+
+<h1 style="text-align:center;color:yellowgreen">Using CSS to style an HTML Form</h1>
+
+<div>
+<form>
+<label for="fname">First Name</label><br>
+<input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+<label for="lname">Last Name</label><br>
+<input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+<label for="lname">Phone Number</label><br>
+<input type="text" id="phno" name="phone number" placeholder="Your
+ 
+
+phone number.."><br>
+
+<label for="lname">Address</label><br>
+<input type="text" id="add" name="address" placeholder="Your address.."><br>
+
+<label for="lname">State</label><br>
+<input type="text" id="state" name="state" placeholder="Your state.."><br>
+
+<label for="country">Country</label><br>
+<select id="country" name="country" active="India">
+<option value="australia">India</option>
+<option value="australia">Australia</option>
+<option value="canada">Canada</option>
+<option value="usa">USA</option>
+</select>
+
+<br><input type="submit" value="Submit">
+</form>
+</div>
+
+</body>
+</html>
